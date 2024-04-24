@@ -1,7 +1,8 @@
+import CardComponent from "../../component/CardComponent/CardComponent";
 
 const HomePage = () => {
     return(
-        <h1>Bem vindo a Home Page</h1>
+        <CardComponent/>
     );
 }
 
