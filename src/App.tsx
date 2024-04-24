@@ -1,6 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { useState } from 'react'
 import './App.css'
+import HomePage from "./page/homePage/HomePage";
 
 function App() {
 
@@ -8,7 +9,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/">
-          <Route index element={<PageShowCompany/>} />
+          <Route index element={<HomePage/>} />
         </Route>
       </Routes>
     </BrowserRouter>
