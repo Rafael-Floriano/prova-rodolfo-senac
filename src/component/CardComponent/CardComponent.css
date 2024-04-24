@@ -1,0 +1,55 @@
+body {
+    background-color: #FCFC30;
+}
+
+.conteiner-body-bb {
+    display: flex;
+    flex-direction: column;
+    gap: 10vh;
+}
+
+.primary-card-conteiner {
+    width: 800px;
+    height: 450px;
+    background-color: #465EFF;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteiner-image {
+    margin-bottom: 40px;
+}
+
+.conteiner-row {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.mini-card {
+    width: 200px;
+    height: 100px;
+    color: white;
+    font-weight: bold;
+    background-color: #465EFF;
+    cursor: pointer;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: .5s;
+}
+
+.mini-card:hover {
+    background-color: #1e3bf8;
+}
